@@ -1,0 +1,81 @@
+
+
+
+[
+    {
+            "id":"1",
+            "grocery":"assets/f1.jpeg",
+            "price":"1500.00"
+            
+    },{
+        "id":"2",
+        "grocery":"assets/f2.jpeg",
+        "price":"9500.00"
+        
+},{
+    "id":"3",
+    "grocery":"assets/f3.jpeg",
+    "price":"7000.00"
+    
+},{
+    "id":"4",
+    "grocery":"assets/f4.jpeg",
+    "price":"700.00"
+    
+},{
+    "id":"5",
+    "grocery":"assets/f5.jpeg",
+    "price":"5680.00"
+    
+},{
+    "id":"6",
+    "grocery":"assets/f6.jpeg",
+    "price":"5600.00"
+    
+},{
+    "id":"7",
+    "grocery":"assets/f7.jpeg",
+    "price":"4500.00"
+    
+},{
+    "id":"8",
+    "grocery":"assets/f8.jpeg",
+    "price":"1500.00"
+    
+},{
+    "id":"9",
+    "grocery":"assets/f9.jpeg",
+    "price":"590.00"
+    
+},{
+    "id":"10",
+    "grocery":"assets/f10.jpeg",
+    "price":"850.00"
+    
+},{
+    "id":"11",
+    "grocery":"assets/f11.jpeg",
+    "price":"5490.00"
+    
+},{
+    "id":"12",
+    "grocery":"assets/f12.jpeg",
+    "price":"5900.00"
+    
+},{
+    "id":"13",
+    "grocery":"assets/f13.jpeg",
+    "price":"900.00"
+    
+},{
+    "id":"14",
+    "grocery":"assets/f14.jpeg",
+    "price":"900.00"
+    
+},{
+    "id":"15",
+    "grocery":"assets/f15.jpeg",
+    "price":"900.00"
+    
+}
+]

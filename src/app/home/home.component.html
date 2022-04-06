@@ -1,0 +1,177 @@
+<!--menu-->
+<div class="menu">
+    <div>
+        <h1><span>D</span>uka</h1>
+    </div>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>Groceries</li>
+            <li>More</li>
+        </ul>
+    </div>
+</div>
+<!--Header-->
+<div class="header">
+    <div>
+        <h1>Fresh And <span>Organic</span> Products For You</h1>
+        <p>We sell and deliver Groceries of good qualtiy to our customers</p>
+        <button><a routerLink="/shop">Shop Now</a></button>
+    </div>
+   
+</div><br><br>
+<!--feature-->
+<div class="featurecontainer">
+    <h1>
+        Our <span>Features</span>
+    </h1>
+    <div class="features">
+        <div>
+            <img src="assets/hamburger.png"/>
+            <h2>Fresh and Organic</h2>
+            <p>Our Groceries are fresh and safely packed for consumption</p>
+        </div>
+        <div>
+            <img src="assets/delivery.png"/>
+            <h2>Free Delivery</h2>
+            <p>Our Groceries are fresh and safely packed for consumption</p>
+        </div>
+        <div>
+            <img src="assets/external-payment-business-and-finance-icongeek26-flat-icongeek26-1.png"/>
+            <h2>Easy Payments</h2>
+            <p>Our Groceries are fresh and safely packed for consumption</p>
+        </div>
+    </div>
+</div>
+
+<!--products-->
+<div class="productscontainer">
+    <h1>Our <span>Products</span></h1>
+    <div class="products">
+        <div *ngFor="let product of products" class="item">
+            <img src="{{product.grocery}}"/>
+            <div>
+                Price : <b>{{product.price}}</b>
+            </div>
+            <div>
+                <button >Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="productscontainer">
+    
+    <div class="products">
+        <div *ngFor="let product of products" class="item">
+            <img src="{{product.grocery}}"/>
+            <div>
+                Price : <b>{{product.price}}</b>
+            </div>
+            
+                <button >Add To Cart</button>
+            
+        </div>
+    </div>
+</div>
+<!--choose us-->
+
+
+
+<div class="choosecontainer">
+    <h1>Why Choose Us</h1>
+<div class="chooses">
+    <div class="choose">
+        <!--ch1-->
+        <div class="ch1">
+<div>
+    <h3>100% Organic</h3>
+    <p>
+        Our Fruit and vegetable are guaranteed to be Seasonal and fresh. Great for your health
+    </p>
+</div>
+<div>
+    <h3>Family Health</h3>
+    <p>
+        Our Fruit and vegetable are guaranteed to be Seasonal and fresh. Great for your health
+    </p>
+</div>
+<div>
+    <h3>Always Fresh</h3>
+    <p>
+        Our Fruit and vegetable are guaranteed to be Seasonal and fresh. Great for your health
+    </p>
+</div>
+</div>
+<div class="img">
+    <img src="assets/f16.jpeg"/>
+</div>
+
+<!--ch2-->
+<div class="ch2">
+<div>
+    <h3>Nuritious</h3>
+    <p>
+        Our Fruit and vegetable are well cook with enough nutrient and fresh. Great for your health
+    </p>
+</div>
+<div>
+    <h3>100% Organic</h3>
+    <p>
+        Our Fruit and vegetable are guaranteed to be Seasonal and fresh. Great for your health
+    </p>
+</div>
+<div>
+    <h3>Well Packed</h3>
+    <p>
+        Our Fruit and vegetable are well packed. Great for your health
+    </p>
+</div>
+</div>
+<!--img-->
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<!--category-->
+
+
+
+<div class="categories">
+<h1>Our <span>Categories</span></h1>
+<div class="category">
+<div>
+    <img src="assets/f15.jpeg"/>
+    <h2>Roasted Chicken</h2>
+    <button><a routerLink="/shop">Order Now</a></button>
+</div>
+<div>
+    <img src="assets/f10.jpeg"/>
+    <h2>Butter Paneer</h2>
+    <button><a routerLink="/shop">Order Now</a></button>
+</div>
+<div>
+    <img src="assets/f13.jpeg">
+    <h2>Sweet Garbage</h2>
+    <button><a routerLink="/shop">Order Now</a></button>
+</div>
+<div>
+    <img src="assets/f4.jpeg"/>
+    <h2>Sweet Soup</h2>
+    <button><a routerLink="/shop">Order Now</a></button>
+</div>
+</div>
+
+</div>
+
+
+<!--reviews-->
+
+<footer> <app-footer></app-footer></footer>
+
+

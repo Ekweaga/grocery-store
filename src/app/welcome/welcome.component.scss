@@ -1,0 +1,43 @@
+.body{
+    height:100vh;
+    max-width:100%;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('/assets/f16.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    h1{
+        font-size: 60px;
+        font-weight: 900;
+        letter-spacing: 0.2rem;
+        margin:0;
+        margin-bottom:-20px;
+        span{
+            color:red;
+            font-size: 90px;
+        }
+    }
+    button{
+        padding:15px;
+        color:white;
+        background-color: red;
+        width:200px;
+        box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0);
+        border:none;
+        a{
+            color:white;
+            text-transform: none;
+            text-decoration: none;
+            font-size:15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    P{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+}

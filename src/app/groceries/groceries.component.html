@@ -1,0 +1,19 @@
+<div class="header">
+    <div>
+        <h1><span>Groceries</span> House</h1>
+    </div>
+   
+</div><br><br>
+
+<div class="products">
+    <div *ngFor="let product of products">
+<img src="{{product.grocery}}"/>
+<b>{{product.price}}</b>
+<button (click)="addtocart(product)">
+    Add To Cart
+</button>
+    </div>
+</div>
+
+<footer> <app-footer></app-footer></footer>
+

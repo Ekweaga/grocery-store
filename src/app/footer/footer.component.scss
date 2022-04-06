@@ -1,0 +1,95 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px;
+    h1{
+        span{
+            color:red;
+            font-size: 30px;
+        }
+    }
+    .menu{
+        ul{
+            margin:0;
+            padding:0;
+            li{
+                list-style-type: none;
+                margin:10px;
+            }
+        }
+    }
+    
+}
+.email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    input{
+        background-color: transparent;
+        color:white;
+        border:none;
+        border-bottom: 1px solid white;
+        width:350px;
+        outline:none;
+        padding:10px;
+    }
+    button{
+        width:350px;
+        color:white;
+        padding:10px;
+        background-color: red;
+        border:none;
+    }
+}
+@media(max-width:750px){
+    .footer{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding:20px;
+        margin-left:60px;
+        width:80%;
+        div{
+            margin-top: 20px;
+        }
+        h1{
+            span{
+                color:red;
+                font-size: 30px;
+            }
+        }
+        .menu{
+            ul{
+                margin:0;
+                padding:0;
+                li{
+                    list-style-type: none;
+                    margin:10px;
+                }
+            }
+        }
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom:30px;
+        margin:20px;
+        input{
+            background-color: transparent;
+            color:white;
+            border:none;
+            border-bottom: 1px solid white;
+            width:350px;
+            outline:none;
+            padding:10px;
+            margin-bottom: 15px;
+        }
+    }
+}
