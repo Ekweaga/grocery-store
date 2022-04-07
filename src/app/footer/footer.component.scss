@@ -1,13 +1,14 @@
 .footer{
     display: flex;
     justify-content: space-around;
+  
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding:20px;
     h1{
         span{
             color:red;
-            font-size: 30px;
+            font-size: 80px;
         }
     }
     .menu{
@@ -28,6 +29,7 @@
     align-items: center;
     padding-bottom:30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
     input{
         background-color: transparent;
         color:white;

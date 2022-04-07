@@ -1,0 +1,84 @@
+.products{
+    width:80%;
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    div{
+        img{
+            width:70px;
+        }
+    }
+    .cartitem{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+        .add{
+            margin-left:20px;
+            button{
+                color: white;
+                border:none;
+                padding:5px;
+                cursor:pointer;
+            }
+        }
+    }
+}
+
+.header{
+    height:300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(43, 42, 42, 0.75), rgba(41, 39, 39, 0.5), rgba(41, 41, 41, 0.8)),url('/assets/f7.jpeg');
+
+display:flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+h1{
+    span{
+        color:red;
+    }
+}
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        border:1px solid red;
+        color:white;
+        background-color: transparent;
+        width:200px;
+        padding: 10px;
+        cursor:pointer;
+    }
+}
+.emptycart{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    div{
+        button{
+            border:1px solid red;
+            color:white;
+            background-color: red;
+            width:150px;
+            padding: 10px;
+            cursor:pointer;
+            margin-top:15px;
+        }
+    }
+}
+.total{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}

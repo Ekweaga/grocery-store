@@ -1,5 +1,5 @@
 <!--menu-->
-<div class="menu">
+<!--<div class="menu">
     <div>
         <h1><span>D</span>uka</h1>
     </div>
@@ -10,7 +10,7 @@
             <li>More</li>
         </ul>
     </div>
-</div>
+</div>-->
 <!--Header-->
 <div class="header">
     <div>
@@ -54,7 +54,7 @@
                 Price : <b>{{product.price}}</b>
             </div>
             <div>
-                <button >Add To Cart</button>
+                <button (click)="addtocart(product)">Add To Cart</button>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                 Price : <b>{{product.price}}</b>
             </div>
             
-                <button >Add To Cart</button>
+                <button (click)="addtocart(product)">Add To Cart</button>
             
         </div>
     </div>

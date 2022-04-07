@@ -6,17 +6,22 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class CartService {
   productList = new BehaviorSubject<any[]>([]);
-cartlist:Array<any> = []
+cartlist:Array<any> = [];
   constructor() { }
 
 
-  sendmsg(product:any){
+sendmsg(product:any){
     this.cartlist.push(product)
-    this.productList.next(this.cartlist)
+    this.productList.next(product)
+    console.log(this.cartlist.length)
     
   }
 
   getmsg(){
     return this.productList.asObservable();
+  }
+  emptycart(){
+     this.cartlist = []
+   console.log("empty cart")
   }
 }

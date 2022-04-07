@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CartService } from '../cart.service';
 import { DukaService } from '../duka.service';
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { DukaService } from '../duka.service';
 })
 export class HomeComponent implements OnInit {
 products:Array<any> =[];
-  constructor(private duka:DukaService) { }
+  constructor(private duka:DukaService, private cart: CartService) { }
 
   ngOnInit(): void {
     this.duka.getproducts().subscribe((data:any)=>{
@@ -17,6 +18,10 @@ products:Array<any> =[];
         Object.assign(a,{quantity:1, total:a.price})
     })
     })
+  }
+  addtocart(product:any){
+    this.cart.sendmsg(product)
+    
   }
 
 }

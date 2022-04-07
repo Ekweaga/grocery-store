@@ -1,1 +1,45 @@
-<p>cart works!</p>
+
+
+<div class="header">
+    <h1>Groceries <span>Cart</span></h1>
+</div>
+<div class="total">Total Price : {{total}}</div>
+<ng-container>
+    <div class="emptycart" *ngIf="cartitem.length == 0" >
+                Cart is Empty
+                <div><button><a routerLink='/shop'>Go to product page</a></button></div>
+    </div>
+   
+
+</ng-container>
+<ng-container *ngIf="cartitem.length > 0">
+    <div class="products" >
+        <div *ngFor="let product of cartitem">
+            <div class="cartitem">
+                <div>
+                    <img src="{{product.grocery}}"/>
+                </div>
+                <div>
+                   <span>Price: <b>{{product.price * product.quantity}}</b></span> <br>
+                   <span>Qty: <b>{{product.quantity}}</b></span> 
+                </div>
+                <div class="add">
+                    <button (click)="removeitem(product.id)">X</button>&nbsp;
+                    <button (click)="increase(product.id)">+</button>
+                </div>
+            </div>
+    
+    
+    
+        </div>
+    </div>
+
+    <div class="btn">
+        <button (click)="empty()">Clear Cart</button>
+    </div>
+</ng-container>
+
+
+<div>
+    <app-footer></app-footer>
+</div>

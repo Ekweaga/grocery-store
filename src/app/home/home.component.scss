@@ -4,6 +4,10 @@ button{
     border:1px solid white;
     color:white;
     padding:10px;
+    cursor:pointer;
+    &:hover{
+        border:1px solid red;
+    }
 }
 
 span{

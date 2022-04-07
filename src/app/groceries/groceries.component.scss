@@ -5,6 +5,10 @@ button{
     padding:10px;
     margin-top:15px;
     width:150px;
+    cursor:pointer;
+    &:hover{
+        border:1px solid red;
+    }
 }
 
 .header{
@@ -36,7 +40,7 @@ button{
     
     
     div{
-        background-color: rgb(7, 7, 7);
+        background-color: rgb(24, 24, 24);
         color:white;
         margin:20px;
         padding:10px;
