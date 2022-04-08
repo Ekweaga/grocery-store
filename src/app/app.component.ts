@@ -8,13 +8,13 @@ import { CartService } from './cart.service';
 })
 export class AppComponent implements OnInit {
   title = 'dukass';
-  totalitem:any;
+  totalitem:number = 0
 
   constructor(private cart:CartService){
 
   }
   ngOnInit(){
-    this.totalitem = this.cart.cartlist.length;
+    this.totalitem = this.cart.cartno
    
   }
   
